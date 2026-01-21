@@ -222,7 +222,8 @@ public:
     }
     
     double area() const override {
-        return 3.14159 * radius * radius;
+        constexpr double PI = 3.14159265358979323846;
+        return PI * radius * radius;
     }
 };
 

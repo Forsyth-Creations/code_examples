@@ -9,6 +9,9 @@ use std::cell::RefCell;
 // 1. SINGLETON PATTERN
 // ============================================================================
 // Thread-safe singleton using Once and static
+// NOTE: For production code, consider using std::sync::OnceLock (Rust 1.70+)
+// or the lazy_static crate for safer alternatives to mutable statics
+
 static mut SINGLETON: Option<Database> = None;
 static INIT: Once = Once::new();
 
@@ -187,7 +190,7 @@ impl Shape for Circle {
     }
 
     fn area(&self) -> f64 {
-        3.14159 * self.radius * self.radius
+        std::f64::consts::PI * self.radius * self.radius
     }
 }
 

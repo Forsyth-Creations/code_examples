@@ -221,7 +221,8 @@ class Circle(Shape):
         print(f"Drawing circle with radius {self.radius}")
     
     def area(self) -> float:
-        return 3.14159 * self.radius ** 2
+        import math
+        return math.pi * self.radius ** 2
 
 
 class Rectangle(Shape):
