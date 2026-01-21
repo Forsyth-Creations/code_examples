@@ -1,0 +1,50 @@
+# Compiled binaries
+*.o
+*.out
+*.exe
+primitives
+control_flow
+structs
+enums
+modules
+classes
+
+# Rust specific
+rust/target/
+rust/**/*.rs.bk
+rust/Cargo.lock
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv
+pip-log.txt
+.pytest_cache/
+
+# C++ specific
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Temporary files
+/tmp/
+*.tmp
+*.log
