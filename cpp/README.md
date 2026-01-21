@@ -92,6 +92,20 @@ Demonstrates the include system and standard library:
 g++ -std=c++17 modules.cpp -o modules && ./modules
 ```
 
+### 6. Design Patterns (`patterns.cpp`)
+Demonstrates common design patterns and access patterns:
+- **Singleton Pattern** - Meyer's Singleton for thread-safe single instance
+- **Multition Pattern (Registry)** - Multiple named instances with thread-safe registry
+- **Mediator Pattern** - Centralized communication using abstract interfaces
+- **Factory Pattern** - Dynamic object creation with type abstraction
+- **Builder Pattern** - Fluent interface for complex object construction
+- **Observer Pattern** - Event notification system with attach/detach
+
+**Compile and run:**
+```bash
+g++ -std=c++17 patterns.cpp -o patterns && ./patterns
+```
+
 ## Building and Running
 
 ### Prerequisites
@@ -151,6 +165,7 @@ Strong static typing with modern features:
 3. Learn **classes.cpp** for object-oriented programming
 4. Explore **enums.cpp** for type-safe constants
 5. Study **modules.cpp** for code organization and STL
+6. Master **patterns.cpp** for design patterns and best practices
 
 ## Additional Resources
 

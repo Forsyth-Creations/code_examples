@@ -81,6 +81,19 @@ Demonstrates the module system and code organization:
 rustc modules.rs && ./modules
 ```
 
+### 6. Design Patterns (`patterns.rs`)
+Demonstrates common design patterns and access patterns:
+- **Singleton Pattern** - Single instance with global access (thread-safe)
+- **Multition Pattern (Registry)** - Multiple named instances in a registry
+- **Mediator Pattern** - Centralized communication between components
+- **Factory Pattern** - Object creation without specifying exact types
+- **Builder Pattern** - Step-by-step construction of complex objects
+
+**Run:**
+```bash
+rustc patterns.rs && ./patterns
+```
+
 ## Building and Running
 
 ### Prerequisites
@@ -129,6 +142,7 @@ High-level features with no runtime overhead:
 3. Learn **structs.rs** for custom data types
 4. Explore **enums.rs** for powerful type variants
 5. Study **modules.rs** for code organization
+6. Master **patterns.rs** for design patterns and best practices
 
 ## Additional Resources
 

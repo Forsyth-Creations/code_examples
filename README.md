@@ -10,6 +10,7 @@ Each language directory contains well-documented examples demonstrating:
 - **Object-oriented programming** (classes, structs, inheritance)
 - **Enumerations** and type definitions
 - **Module systems** and code organization
+- **Design patterns** (singleton, factory, builder, mediator, observer)
 - **Language-specific features** and idioms
 
 ## Languages
@@ -25,6 +26,7 @@ Modern systems programming language focused on safety, speed, and concurrency.
 - `structs.rs` - Regular structs, tuple structs, methods, generics
 - `enums.rs` - Simple enums, enums with data, Option, Result
 - `modules.rs` - Module organization, imports, visibility
+- `patterns.rs` - Design patterns (Singleton, Factory, Builder, Mediator, Registry)
 
 **Key Features:**
 - Ownership and borrowing system
@@ -44,6 +46,7 @@ High-level, interpreted language known for readability and versatility.
 - `control_flow.py` - If/else, loops, comprehensions, exception handling
 - `classes.py` - Classes, inheritance, dataclasses, abstract classes
 - `modules.py` - Imports, standard library, type hints
+- `patterns.py` - Design patterns (Singleton, Factory, Builder, Mediator, Observer, Registry)
 
 **Key Features:**
 - Dynamic typing with optional type hints
@@ -64,6 +67,7 @@ Powerful, compiled language for performance-critical applications.
 - `classes.cpp` - Classes, inheritance, templates, smart pointers
 - `enums.cpp` - Enums, scoped enums (enum class)
 - `modules.cpp` - Includes, namespaces, STL
+- `patterns.cpp` - Design patterns (Singleton, Factory, Builder, Mediator, Observer, Registry)
 
 **Key Features:**
 - Low-level memory control

@@ -70,6 +70,20 @@ Demonstrates the module system and imports:
 python3 modules.py
 ```
 
+### 5. Design Patterns (`patterns.py`)
+Demonstrates common design patterns and access patterns:
+- **Singleton Pattern** - Single instance with global access (thread-safe metaclass and decorator)
+- **Multition Pattern (Registry)** - Multiple named instances managed in a registry
+- **Mediator Pattern** - Centralized communication between components
+- **Factory Pattern** - Object creation without specifying exact classes
+- **Builder Pattern** - Fluent API for step-by-step object construction
+- **Observer Pattern** - Subscription mechanism for event notifications
+
+**Run:**
+```bash
+python3 patterns.py
+```
+
 ## Building and Running
 
 ### Prerequisites
@@ -125,6 +139,7 @@ Resource management with 'with' statement:
 2. Move to **control_flow.py** for program structure
 3. Learn **classes.py** for object-oriented programming
 4. Study **modules.py** for code organization
+5. Master **patterns.py** for design patterns and best practices
 
 ## Additional Resources
 
