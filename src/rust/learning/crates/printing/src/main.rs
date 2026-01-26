@@ -34,7 +34,7 @@ fn main() {
     println!("  Zero-padded: '{:05}'", 42);
 
     // Precision for floats
-    let pi = 3.14159265359;
+    let pi = std::f64::consts::PI;
     println!("\nFloat precision:");
     println!("  Default: {}", pi);
     println!("  2 decimals: {:.2}", pi);

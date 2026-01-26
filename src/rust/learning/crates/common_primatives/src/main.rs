@@ -1,3 +1,5 @@
+#![allow(clippy::approx_constant)]
+
 fn main() {
     println!("=== Common Primitives in Rust ===\n");
 
