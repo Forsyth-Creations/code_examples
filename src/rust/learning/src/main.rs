@@ -37,6 +37,7 @@ fn main() {
             "12" => run_example("documentation", "Documentation"),
             "13" => run_cli_example(),
             "14" => run_features_example(),
+            "15" => run_example("pydantic_like", "Pydantic-like Validation"),
             "0" => run_all_examples(),
             _ => println!("\n❌ Invalid choice. Please try again."),
         }
@@ -62,6 +63,7 @@ fn display_menu() {
     println!(" 12.  Documentation               - Doc comments");
     println!(" 13.  CLI Arguments               - Command-line parsing");
     println!(" 14.  Cargo Features              - Conditional compilation");
+    println!(" 15.  Pydantic-like Validation    - Data validation example");
     println!("─────────────────────────────────────────────────────────────────");
     println!("  0.  Run ALL examples");
     println!("  q.  Quit");

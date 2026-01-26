@@ -18,7 +18,8 @@ members = [
     "crates/documentation",
     "crates/testing",
     "crates/build_config_cli",
-    "crates/features"
+    "crates/features",
+    "crates/pydantic_like"
 ]
 
 [dependencies]
