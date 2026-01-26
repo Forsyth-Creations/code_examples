@@ -52,4 +52,7 @@ fn main() {
     let mut string: String = String::from("Rust");
     string.push_str(" is awesome!");
     println!("String: {}", string);
+
+    // let bad_value : u8 = -300; // Intentional error to show type limits
+    // println!("Bad Value: {}", bad_value); <-- This line would cause a compile-time error
 }

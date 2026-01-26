@@ -64,6 +64,8 @@ Implements boolean logic gates (AND, OR, NOT, NAND, NOR, XOR, XNOR) with truth t
 ### printing
 Shows various ways to format and print output to the console, including positional arguments, named arguments, debug formatting, and number formatting.
 
+`Note that "console" is the crate I used to style the outputs. This is part of my need to make it look nice in the terminal, something I learned from "rich" in Python.`
+
 ### properly_erroring
 Demonstrates proper error handling using Result and Option types, the ? operator, and custom error types.
 

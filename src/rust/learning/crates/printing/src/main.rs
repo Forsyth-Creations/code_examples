@@ -1,3 +1,5 @@
+use console::style;
+
 fn main() {
     println!("=== Printing and Formatting in Rust ===\n");
 
@@ -42,4 +44,12 @@ fn main() {
 
     // Error printing
     eprintln!("\nThis goes to stderr!");
+
+
+    // ---------- You can also use the 'console' crate for styled output ----------
+    println!("\nStyled output using 'console' crate:");
+    println!("{} This is red text", style("Red").red());
+    println!("{} This is green text", style("Green").green());
+    println!("{} This is bold text", style("Bold").bold());
+    println!("{} This is underlined text", style("Underlined").underlined());
 }
