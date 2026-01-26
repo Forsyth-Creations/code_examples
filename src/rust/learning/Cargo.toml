@@ -1,0 +1,24 @@
+[package]
+name = "learning"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = [
+    "crates/common_primatives",
+    "crates/common_logic_gates",
+    "crates/printing",
+    "crates/properly_erroring",
+    "crates/traits_and_attributes",
+    "crates/ownership_and_borrowing",
+    "crates/logging",
+    "crates/parallelism",
+    "crates/singleton_example",
+    "crates/performace_awareness",
+    "crates/documentation",
+    "crates/testing",
+    "crates/build_config_cli",
+    "crates/features"
+]
+
+[dependencies]

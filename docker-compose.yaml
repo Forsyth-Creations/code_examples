@@ -1,0 +1,7 @@
+services:
+  examples:
+    build: .
+    container_name: code_examples_container
+    volumes:
+      - ./src:/workspace
+    tty: true
