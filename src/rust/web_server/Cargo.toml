@@ -14,7 +14,6 @@ utoipa-swagger-ui = { version = "6", features = ["axum"] }
 
 # Authentication
 jsonwebtoken = "9"
-bcrypt = "0.15"
 
 # Serialization
 serde = { version = "1", features = ["derive"] }
