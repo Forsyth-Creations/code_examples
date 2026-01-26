@@ -2,8 +2,62 @@
 # It is not intended for manual editing.
 version = 4
 
-[workspace]
+[[package]]
+name = "build_config_cli"
+version = "0.1.0"
+
+[[package]]
+name = "common_logic_gates"
+version = "0.1.0"
+
+[[package]]
+name = "common_primatives"
+version = "0.1.0"
+
+[[package]]
+name = "documentation"
+version = "0.1.0"
+
+[[package]]
+name = "features"
+version = "0.1.0"
 
 [[package]]
 name = "learning"
+version = "0.1.0"
+
+[[package]]
+name = "logging"
+version = "0.1.0"
+
+[[package]]
+name = "ownership_and_borrowing"
+version = "0.1.0"
+
+[[package]]
+name = "parallelism"
+version = "0.1.0"
+
+[[package]]
+name = "performace_awareness"
+version = "0.1.0"
+
+[[package]]
+name = "printing"
+version = "0.1.0"
+
+[[package]]
+name = "properly_erroring"
+version = "0.1.0"
+
+[[package]]
+name = "singleton_example"
+version = "0.1.0"
+
+[[package]]
+name = "testing"
+version = "0.1.0"
+
+[[package]]
+name = "traits_and_attributes"
 version = "0.1.0"
