@@ -131,12 +131,12 @@ async fn main() {
         .layer(TraceLayer::new_for_http());
 
     // Run the server
-    let listener = tokio::net::TcpListener::bind("0.0.0.0:3000")
+    let listener = tokio::net::TcpListener::bind("0.0.0.0:1100")
         .await
         .expect("Failed to bind to address");
     
-    println!("🚀 Server running on http://0.0.0.0:3000");
-    println!("📚 Swagger UI available at http://0.0.0.0:3000/swagger-ui");
+    println!("🚀 Server running on http://0.0.0.0:1100");
+    println!("📚 Swagger UI available at http://0.0.0.0:1100/swagger-ui");
     println!("📄 OpenAPI JSON available at http://0.0.0.0:3000/api-docs/openapi.json");
 
     axum::serve(listener, app)

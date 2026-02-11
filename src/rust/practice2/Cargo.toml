@@ -1,0 +1,10 @@
+[package]
+name = "practice2"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+common_primatives = { path = "crates/common_primatives" }
+common_logic_gates = { path = "crates/common_logic_gates" }
+printing = { version = "0.1.0", path = "crates/printing" }
+properly_erroring = { version = "0.1.0", path = "crates/properly_erroring" }
