@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/crates/properly_erroring/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/crates/traits_and_attributes/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/crates/parallelism/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/crates/borrowing/target" />
       <excludeFolder url="file://$MODULE_DIR$/crates/common_logic_gates/target" />
       <excludeFolder url="file://$MODULE_DIR$/crates/common_primatives/target" />
@@ -16,6 +17,7 @@
       <excludeFolder url="file://$MODULE_DIR$/crates/properly_erroring/target" />
       <excludeFolder url="file://$MODULE_DIR$/crates/traits_and_attributes/target" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
+      <excludeFolder url="file://$MODULE_DIR$/crates/parallelism/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -1,8 +1,11 @@
 use common_primatives::add;
 use printing::common_prints;
+use log::{debug, error, info, trace, warn};
 
 fn main() {
     println!("Hello, world!");
+
+    env_logger::init();
 
     let (a, b) = (5, 4);
     let c = (5, 4);
