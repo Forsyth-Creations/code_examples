@@ -8,3 +8,5 @@ common_primatives = { path = "crates/common_primatives" }
 common_logic_gates = { path = "crates/common_logic_gates" }
 printing = { version = "0.1.0", path = "crates/printing" }
 properly_erroring = { version = "0.1.0", path = "crates/properly_erroring" }
+traits_and_attributes = { version = "0.1.0", path = "crates/traits_and_attributes" }
+borrowing = { version = "0.1.0", path = "crates/borrowing" }

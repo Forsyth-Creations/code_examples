@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/crates/borrowing/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/crates/common_logic_gates/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/crates/common_primatives/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/crates/printing/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/crates/properly_erroring/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/crates/traits_and_attributes/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/crates/borrowing/target" />
+      <excludeFolder url="file://$MODULE_DIR$/crates/common_logic_gates/target" />
+      <excludeFolder url="file://$MODULE_DIR$/crates/common_primatives/target" />
+      <excludeFolder url="file://$MODULE_DIR$/crates/printing/target" />
+      <excludeFolder url="file://$MODULE_DIR$/crates/properly_erroring/target" />
+      <excludeFolder url="file://$MODULE_DIR$/crates/traits_and_attributes/target" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -8,3 +8,5 @@ pub fn show_some_gates() {
 fn and_gate(a : bool, b: bool) -> bool {
     return a && b;
 }
+
+
