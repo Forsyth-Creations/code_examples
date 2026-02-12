@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/learning/crates/build_config_cli/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/learning/crates/common_logic_gates/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/learning/crates/common_primatives/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/learning/crates/documentation/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/learning/crates/features/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/learning/crates/logging/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/learning/crates/ownership_and_borrowing/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/learning/crates/parallelism/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/learning/crates/performace_awareness/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/learning/crates/printing/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/learning/crates/properly_erroring/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/learning/crates/pydantic_like/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/learning/crates/singleton_example/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/learning/crates/testing/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/learning/crates/traits_and_attributes/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/learning/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/practice2/crates/borrowing/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/practice2/crates/common_logic_gates/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/practice2/crates/common_primatives/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/practice2/crates/printing/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/practice2/crates/properly_erroring/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/practice2/crates/traits_and_attributes/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/rust/practice2/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/src/rust/learning/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/rust/practice2/crates/borrowing/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/rust/practice2/crates/common_logic_gates/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/rust/practice2/crates/common_primatives/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/rust/practice2/crates/printing/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/rust/practice2/crates/properly_erroring/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/rust/practice2/crates/traits_and_attributes/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/rust/practice2/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
